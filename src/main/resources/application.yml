@@ -1,0 +1,11 @@
+# Spring Boot Thread Pool 配置
+spring:
+  threads:
+    virtual:
+      enabled: false  # 暂不用虚拟线程，用传统线程池
+
+# 日志配置
+logging:
+  level:
+    com.example.demo: DEBUG
+    org.springframework.scheduling: DEBUG
